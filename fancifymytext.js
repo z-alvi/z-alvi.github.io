@@ -7,7 +7,7 @@ function makeTextBigger(){
 }
 
 function fancyText(){
-    //alert("fancified!");
+    alert("fancified!");
     document.getElementById("textbox").style.fontFamily = "cursive";
     document.getElementById("textbox").style.fontWeight = "bold";
     document.getElementById("textbox").style.color = "blue";
@@ -15,7 +15,7 @@ function fancyText(){
 }
 
 function boringText(){
-    //alert("un-fancified!");
+    alert("un-fancified!");
     document.getElementById("textbox").style.fontFamily = "normal";
     document.getElementById("textbox").style.fontWeight = "normal";
     document.getElementById("textbox").style.color = "black";
